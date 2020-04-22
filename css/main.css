@@ -224,6 +224,7 @@ div.logo img {
 
 nav.navegacion-principal {
     display: none;
+    padding-right: 6rem;
 }
 
 nav.navegacion-principal a {
