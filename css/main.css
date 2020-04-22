@@ -104,9 +104,29 @@ body {
     }
 }
 
+.seccion {
+    padding: 30px 0;
+}
+
+.seccion p {
+    font-size: 1.2em;
+    text-align: center;
+}
+
 h2 {
     font-family: 'Oswald', sans-serif;
-    ;
+    font-size: 2.4em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h2::after {
+    content: '';
+    margin: 0 auto;
+    background-image: url(../img/img/separador.png);
+    height: 30px;
+    width: 100px;
+    display: block;
 }
 
 
@@ -209,6 +229,7 @@ div.barra {
 
 div.logo {
     width: 80%;
+    float: left;
 }
 
 div.logo img {
@@ -218,23 +239,26 @@ div.logo img {
 @media only screen and (min-width: 768px) {
     div.logo {
         width: 33%;
-        float: left;
     }
 }
 
 nav.navegacion-principal {
     display: none;
-    padding-right: 6rem;
+    padding-right: 7rem;
 }
 
 nav.navegacion-principal a {
     font-family: 'Oswald', sans-serif;
     color: white;
-    font-size: 1.4em;
+    font-size: 1.6em;
     text-transform: uppercase;
     text-decoration: none;
     transition: all .4s ease;
-    margin-top: 0.4em;
+    margin-top: 0.5em;
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 nav.navegacion-principal a:hover {
@@ -243,6 +267,11 @@ nav.navegacion-principal a:hover {
 
 nav.navegacion-principal a:last-child {
     border: 2px solid #fe4918;
+    color: #fe4918;
+}
+
+nav.navegacion-principal a:last-child:hover {
+    color: #ffffff;
 }
 
 @media only screen and (min-width:768px) {
@@ -253,10 +282,43 @@ nav.navegacion-principal a:last-child {
         display: block;
     }
     nav.navegacion-principal a {
-        margin-right: 10px;
         padding: 10px 10px;
         display: inline-block;
+        transition: all .4s ease;
+        margin-top: 0.5em;
+        width: auto;
+        display: inline-block;
+        text-align: center;
+        margin: 15px 10px 0 0;
     }
+}
+
+
+/** Menu Movil **/
+
+div.menu-movil {
+    width: 60px;
+    display: block;
+    float: right;
+    text-align: right;
+    margin-top: 12px;
+}
+
+div.menu-movil:hover {
+    cursor: pointer;
+}
+
+@media only screen and (min-width:768px) {
+    div.menu-movil {
+        display: none;
+    }
+}
+
+div.menu-movil span {
+    height: 8px;
+    background-color: white;
+    margin-bottom: 6px;
+    display: block;
 }
 
 
