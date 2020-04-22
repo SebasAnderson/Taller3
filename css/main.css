@@ -234,6 +234,7 @@ nav.navegacion-principal a {
     text-transform: uppercase;
     text-decoration: none;
     transition: all .4s ease;
+    margin-top: 0.4em;
 }
 
 nav.navegacion-principal a:hover {
