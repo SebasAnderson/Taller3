@@ -743,7 +743,7 @@
         footer {
             background-color: #353535;
             padding-top: 40px;
-            margin: 20px;
+            margin: 20px 0 0 0;
         }
         
         footer.contenedor>div {
