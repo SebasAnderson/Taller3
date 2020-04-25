@@ -665,6 +665,7 @@
         
         footer.info-testimonial {
             padding: 0;
+            background-color: white;
         }
         
         footer.info-testimonial img {
@@ -687,7 +688,7 @@
         }
         
         footer.info-testimonial cite span {
-            color: black;
+            color: rgb(184, 174, 174);
             display: block;
             text-transform: none;
             margin-top: 5px;
