@@ -22,7 +22,6 @@
     var stickers = document.getElementById("stickers");
 
     calcular.addEventListener("click", calcularMontos);
-
     pase_dia.addEventListener("blur", mostrarDias);
     pase_dosDias.addEventListener("blur", mostrarDias);
     pase_completo.addEventListener("blur", mostrarDias);
@@ -71,14 +70,14 @@
           lista_productos.innerHTML += listadoProductos[1] + "<br/>";
         }
         suma.innerHTML = "$ " + totalPagar.toFixed(2);
-      }
+      }}
       function mostrarDias() {
         var boletosDia = parseInt(pase_dia.value, 10) || 0,
           boletos2Dias = parseInt(pase_dosDias.value, 10) || 0,
           boletosCompleto = parseInt(pase_completo.value, 10) || 0;
 
         var diasElegidos = [];
-
+        console.log(boletosDia);
         if (boletosDia > 0) {
           diasElegidos.push('viernes');
           console.log(diasElegidos);
@@ -91,10 +90,10 @@
           diasElegidos.push("viernes", "sabado", "domingo");
           console.log(diasElegidos);
         }
-        for (var i = 0; 1 < diasElegidos.length; i++) {
-          document.getElementById(diasElegidos[i]).style.display = "block";
+        for (var i = 0; i < diasElegidos.length; i++) {
+          document.getElementById(diasElegidos[i]).style.display = 'block';
         }
       }
     }
-  }); //Dom content loaded
+  ); //Dom content loaded
 })();
