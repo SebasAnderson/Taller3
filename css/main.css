@@ -893,7 +893,14 @@
             font-size: 2em;
             color: #fe4918;
         }
-
+        input[disabled].button {
+            opacity: .5;
+        }
+        #error {
+            clear: both;
+            padding: 20px;
+            text-align: center;
+        }
         .hidden {
             display: none !important;
         }
