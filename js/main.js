@@ -3,6 +3,7 @@
 
   var regalo = document.getElementById("regalo");
   document.addEventListener("DOMContentLoaded", function () {
+
     var map = L.map('mapa').setView([-34.609943, -58.36203], 16);
     L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
       attribution:
@@ -110,9 +111,9 @@
         lista_productos.style.display = "block";
         lista_productos.innerHTML = "";
         for (var i = 0; i < listadoProductos.length; i++) {
-          lista_productos.innerHTML += listadoProductos[1] + "<br/>";
+          lista_productos.innerHTML += listadoProductos[i] + "<br/>";
         }
-        suma.innerHTML = "$ " + totalPagar.toFixed(2);
+        suma.innerHTML = "$ " + totalPagar;
       }
     }
 
