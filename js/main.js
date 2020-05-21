@@ -3,8 +3,7 @@
 
   var regalo = document.getElementById("regalo");
   document.addEventListener("DOMContentLoaded", function () {
-
-    var map = L.map("mapa").setView([-34.609943, -58.36203], 16);
+    var map = L.map('mapa').setView([-34.609943, -58.36203], 16);
     L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
       attribution:
         '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
@@ -57,6 +56,7 @@
         this.style.border = "1px solid #cccccc";
       }
     }
+
     function validarMail() {
       if (this.value.indexOf("@") > -1) {
         errorDiv.style.display = "none";
@@ -115,7 +115,9 @@
         suma.innerHTML = "$ " + totalPagar.toFixed(2);
       }
     }
+
     function mostrarDias() {
+      console.log('evento funciona')
       var boletosDia = parseInt(pase_dia.value, 10) || 0,
         boletos2Dias = parseInt(pase_dosDias.value, 10) || 0,
         boletosCompleto = parseInt(pase_completo.value, 10) || 0;
