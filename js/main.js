@@ -4,16 +4,18 @@
   var regalo = document.getElementById("regalo");
   document.addEventListener("DOMContentLoaded", function () {
 
-    var map = L.map("mapa").setView([51.505, -0.09], 13);
+    var map = L.map("mapa").setView([-34.609943, -58.36203], 16);
     L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
       attribution:
         '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
     }).addTo(map);
 
-    L.marker([51.5, -0.09])
+    L.marker([-34.609943, -58.36203])
       .addTo(map)
-      .bindPopup("A pretty CSS3 popup.<br> Easily customizable.")
-      .openPopup();
+      .bindPopup("BsAsWebCamp 2020 <br> Entradas ya disponibles")
+      .openPopup()
+      .bindTooltip('Un Tooltip')
+      .openTooltip();
 
     //Campos Datos Usuario
     var nombre = document.getElementById("nombre");
