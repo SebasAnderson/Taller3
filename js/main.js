@@ -4,13 +4,13 @@
   var regalo = document.getElementById("regalo");
   document.addEventListener("DOMContentLoaded", function () {
 
-    var map = L.map('mapa').setView([-34.609943, -58.36203], 16);
+    var map = L.map('mapa').setView([-34.610676, -58.361778], 16);
     L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
       attribution:
         '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
     }).addTo(map);
 
-    L.marker([-34.609943, -58.36203])
+    L.marker([-34.610676, -58.361778])
       .addTo(map)
       .bindPopup("BsAsWebCamp 2020 <br> Entradas ya disponibles")
       .openPopup()
@@ -157,4 +157,10 @@ $(function() {
     $(enlace).fadeIn(1000);
     return false;
   });
+
+  //Animaciones para los numeros
+  $('.resumen-evento li:nth-child(1) p').animateNumber({number: 6},1200);
+  $('.resumen-evento li:nth-child(2) p').animateNumber({number: 15},1200);
+  $('.resumen-evento li:nth-child(3) p').animateNumber({number: 3},1200);
+  $('.resumen-evento li:nth-child(4) p').animateNumber({number: 9},1300);
 });
