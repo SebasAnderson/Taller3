@@ -145,6 +145,11 @@
 })();
 
 $(function() {
+
+  //Lettering
+
+  $('.nombre-sitio').lettering();
+
   //Programa de conferencias
   $('.programa-evento .info-curso:first').show();
   $('.menu-programa a:first').addClass('activo');
@@ -163,4 +168,15 @@ $(function() {
   $('.resumen-evento li:nth-child(2) p').animateNumber({number: 15},1200);
   $('.resumen-evento li:nth-child(3) p').animateNumber({number: 3},1200);
   $('.resumen-evento li:nth-child(4) p').animateNumber({number: 9},1300);
+
+  //CUENTA-REGRESIVA
+
+  $('.cuenta-regresiva').countdown('2020/12/09 09:00:00', function(event){
+    $('#dias').html(event.strftime('%D'));
+    $('#horas').html(event.strftime('%H'));
+    $('#minutos').html(event.strftime('%M'));
+    $('#segundos').html(event.strftime('%S'));
+  });
+
+
 });
