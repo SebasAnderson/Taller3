@@ -35,6 +35,8 @@
     var remeras = document.getElementById("remera_evento");
     var stickers = document.getElementById("stickers");
 
+    if(document.getElementById('calcular')){
+
     calcular.addEventListener("click", calcularMontos);
 
     pase_dia.addEventListener("blur", mostrarDias);
@@ -141,6 +143,7 @@
         document.getElementById(diasElegidos[i]).style.display = "block";
       }
     }
+  }
   }); //Dom content loaded
 })();
 
@@ -163,6 +166,14 @@ $(function() {
       $('body').css({'margin-top': '0px'})
     }
   });
+
+  // Menu Responsive
+
+  $('.menu-movil').on('click', function(){
+    $('.navegacion-principal').slideToggle();
+  });
+
+
 
   //Programa de conferencias
   $('.programa-evento .info-curso:first').show();
