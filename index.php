@@ -1,74 +1,4 @@
-<!DOCTYPE html>
-<html class="no-js" lang="">
-  <head>
-    <meta charset="utf-8" />
-    <title></title>
-    <meta name="description" content="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-    <link rel="manifest" href="site.webmanifest" />
-    <link rel="apple-touch-icon" href="icon.png" />
-    <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/fontawesome-all.min.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Oswald:wght@200;300;400;500;600;700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="css/main.css" />
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
-    />
-    <meta name="theme-color" content="#fafafa" />
-  </head>
-
-  <body>
-    <header class="site-header">
-      <div class="hero">
-        <div class="contenido-header">
-          <nav class="redes-sociales">
-            <a href="#"><i class="fab fa-facebook-f"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-pinterest-p"></i></a>
-            <a href="#"><i class="fab fa-youtube"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-          </nav>
-          <div class="informacion-evento">
-            <div class="clearfix">
-              <p class="fecha"><i class="fas fa-calendar-alt"></i>9-11 Dic</p>
-              <p class="ciudad">
-                <i class="fas fa-map-marker-alt"></i>Buenos Aires, Arg
-              </p>
-            </div>
-            <h1 class="nombre-sitio">BsAsWebCamp</h1>
-            <p class="slogan">
-              La mejor conferencia de <span>Diseño web</span>
-            </p>
-          </div>
-        </div>
-      </div>
-      <!-- Hero -->
-    </header>
-    <div class="barra">
-      <div class="contenedor clearfix">
-        <div class="logo">
-          <img src="img/img/logo2.svg" alt="Logo-test" />
-        </div>
-        <div class="menu-movil">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-        <nav class="navegacion-principal">
-          <a href="conferencia.html">Conferencia</a>
-          <a href="#">Calendario</a>
-          <a href="#">Invitados</a>
-          <a href="registro.html">Reservaciones</a>
-        </nav>
-      </div>
-      <!-- Contenedor -->
-    </div>
-    <!-- Fin de la barra -->
+<?php include_once 'includes/templates/header.php'; ?>
 
     <section class="seccion contenedor">
       <h2>La mejor conferencia de diseño web</h2>
@@ -87,9 +17,9 @@
     <section class="programa">
       <div class="contenedor-video">
         <video autoplay loop poster="img/img/bg-talleres.jpg">
-          <source src="video/video.mp4" type="video/mp4" />
-          <source src="video/video.webm" type="video/webm" />
-          <source src="video/video.ogv" type="video/ogh" />
+          <source src="./video/video.mp4" type="video/mp4" />
+          <source src="./video/video.webm" type="video/webm" />
+          <source src="./video/video.ogv" type="video/ogh" />
         </video>
       </div>
       <!-- Contenedor video -->
@@ -166,37 +96,37 @@
       <ul class="lista-invitados clearfix">
         <li>
           <div class="invitado">
-            <img src="img/img/invitado1.jpg " alt="Imagen invitado " />
+            <img src="./img/img/invitado1.jpg " alt="Imagen invitado " />
             <p>Gonzalo Anderson</p>
           </div>
         </li>
         <li>
           <div class="invitado">
-            <img src="img/img/invitado2.jpg " alt="Imagen invitado " />
+            <img src="./img/img/invitado2.jpg " alt="Imagen invitado " />
             <p>Luciana Silver</p>
           </div>
         </li>
         <li>
           <div class="invitado">
-            <img src="img/img/invitado3.jpg " alt="Imagen invitado " />
+            <img src="./img/img/invitado3.jpg " alt="Imagen invitado " />
             <p>Federico Rios</p>
           </div>
         </li>
         <li>
           <div class="invitado">
-            <img src="img/img/invitado4.jpg " alt="Imagen invitado " />
+            <img src="./img/img/invitado4.jpg " alt="Imagen invitado " />
             <p>Florencia Torres</p>
           </div>
         </li>
         <li>
           <div class="invitado">
-            <img src="img/img/invitado6.jpg " alt="Imagen invitado " />
+            <img src="./img/img/invitado6.jpg " alt="Imagen invitado " />
             <p>Camila Sanchez</p>
           </div>
         </li>
         <li>
           <div class="invitado">
-            <img src="img/img/Gus450x300.jpg" alt="Imagen invitado " />
+            <img src="./img/img/Gus450x300.jpg" alt="Imagen invitado " />
             <p>Gustavo Jezior</p>
           </div>
         </li>
@@ -283,7 +213,7 @@
               velit similique repellat?
             </p>
             <footer class="info-testimonial clearfix">
-              <img src="img/img/testimonial.jpg" alt="imagen testimonial" />
+              <img src="./img/img/testimonial.jpg" alt="imagen testimonial" />
               <cite>Gonzalo Anderson <span>Diseñador en @prisma</span></cite>
             </footer>
           </blockquote>
@@ -297,7 +227,7 @@
               velit similique repellat?
             </p>
             <footer class="info-testimonial clearfix">
-              <img src="img/img/testimonial.jpg" alt="imagen testimonial" />
+              <img src="./img/img/testimonial.jpg" alt="imagen testimonial" />
               <cite>Gonzalo Anderson <span>Diseñador en @prisma</span></cite>
             </footer>
           </blockquote>
@@ -311,7 +241,7 @@
               velit similique repellat?
             </p>
             <footer class="info-testimonial clearfix">
-              <img src="img/img/testimonial.jpg" alt="imagen testimonial" />
+              <img src="./img/img/testimonial.jpg" alt="imagen testimonial" />
               <cite>Gonzalo Anderson <span>Diseñador en @prisma</span></cite>
             </footer>
           </blockquote>
@@ -324,7 +254,7 @@
       <div class="contenido contenedor">
         <p>Registrate al newsletter:</p>
         <h3>BsAsWebCamp</h3>
-        <a href="#" class="button transparente">Registro</a>
+        <a href="registro.html" class="button transparente">Registro</a>
       </div>
       <!-- Contenido -->
     </div>
@@ -353,83 +283,5 @@
         </ul>
       </div>
     </section>
-    <footer class="site-footer">
-      <div class="contenedor clearfix">
-        <div class="footer-informacion">
-          <h3>Sobre <span>BsAsWebCamp</span></h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque amet
-            voluptates, fugit ullam explicabo eum, quisquam iste, adipisci
-            tempora unde dolore earum maiores quasi minima. Reprehenderit
-            inventore facilis id harum.
-          </p>
-        </div>
-        <div class="ultimos-tweets">
-          <h3>Ultimos <span>Tweets</span></h3>
-          <ul>
-            <li>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae
-              eveniet consequatur debitis libero velit corporis, accusamus nam,
-              modi, aliquam doloribus #ipsum minima natus ducimus vero optio id
-              @amet recusandae ullam.
-            </li>
-            <li>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae
-              eveniet consequatur debitis libero velit corporis, accusamus nam,
-              modi, aliquam doloribus #ipsum minima natus ducimus vero optio id
-              @amet recusandae ullam.
-            </li>
-          </ul>
-        </div>
-        <div class="menu">
-          <h3>Redes <span>Sociales</span></h3>
-          <nav class="redes-sociales">
-            <a href="#"><i class="fab fa-facebook-f"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-pinterest-p"></i></a>
-            <a href="#"><i class="fab fa-youtube"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-          </nav>
-        </div>
-      </div>
-      <p class="copyright">
-        Todos los derechos Reservados BsAsWebCamp 2020
-      </p>
-    </footer>
 
-    <script
-      src="https://kit.fontawesome.com/b6d1f05ea0.js"
-      crossorigin="anonymous"
-    ></script>
-    <script src=" js/vendor/modernizr-3.8.0.min.js "></script>
-    <script
-      src="https://code.jquery.com/jquery-3.4.1.min.js "
-      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-      crossorigin=" anonymous "
-    ></script>
-    <script>
-      window.jQuery ||
-        document.write(
-          '<script src="js/vendor/jquery-3.4.1.min.js "><\/script>'
-        );
-    </script>
-    <script src="js/plugins.js "></script>
-    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
-    <script src="js/jquery.animateNumber.min.js"></script>
-    <script src="js/jquery.countdown.min.js"></script>
-    <script src="js/jquery.lettering.js"></script>
-    <script src="js/main.js "></script>
-
-    <script>
-      window.ga = function () {
-        ga.q.push(arguments);
-      };
-      ga.q = [];
-      ga.l = +new Date();
-      ga("create", "UA-XXXXX-Y", "auto");
-      ga("set", "transport", "beacon");
-      ga("send", "pageview");
-    </script>
-    <script src="https://www.google-analytics.com/analytics.js " async></script>
-  </body>
-</html>
+<?php include_once 'includes/templates/footer.php'; ?>

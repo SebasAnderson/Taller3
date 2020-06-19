@@ -152,21 +152,21 @@ $(function() {
   //Lettering
   $('.nombre-sitio').lettering();
 
-  //Menu fijo
-  var windowHeight = $(window).height();
-  var barraAltura = $('.barra').innerHeight();
+  // //Menu fijo
+   var windowHeight = $(window).height();
+   var barraAltura = $('.barra').innerHeight();
 
-  $(window).scroll(function() { 
-    console.log('scroll here');
-    var scroll = $(window).scrollTop();
-    if(scroll > windowHeight) {
-      $('.barra').addClass('fixed');
-      $('body').css({'margin-top': barraAltura='px'});
-    }else {
-      $('.barra').removeClass('fixed');
-      $('body').css({'margin-top': '0px'});
-    }
-  });
+   $(window).scroll(function() { 
+     console.log('scroll here');
+     var scroll = $(window).scrollTop();
+     if(scroll > windowHeight) {
+       $('.barra').addClass('fixed');
+       $('body').css({'margin-top': barraAltura='px'});
+     }else {
+       $('.barra').removeClass('fixed');
+       $('body').css({'margin-top': '0px'});
+     }
+   });
 
   // Menu Responsive
 
