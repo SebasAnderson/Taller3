@@ -15,7 +15,6 @@
       </p>
     </section>
     <!-- Sección -->
-
     <section class="seccion contenedor">
         <h2>Galeria de fotos</h2>
         <div>
@@ -57,5 +56,6 @@
           </a>
         </div>
     </section>
-    
-  <?php include_once 'includes/templates/footer.php'; ?>
+</section>
+
+<?php include_once 'includes/templates/footer.php';?>
