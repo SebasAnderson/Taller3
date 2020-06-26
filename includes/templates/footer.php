@@ -63,6 +63,7 @@
     <script src="js/jquery.countdown.min.js"></script>
     <script src="js/jquery.lettering.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/lightbox.js"></script>
 
     <script>
       window.ga = function () {

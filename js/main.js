@@ -1,21 +1,9 @@
 (function () {
- // "use strict";
+  "use strict";
 
   var regalo = document.getElementById("regalo");
   document.addEventListener("DOMContentLoaded", function () {
-     var map = L.map('mapa').setView([-34.610676, -58.361778], 16);
-    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-      attribution:
-        '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-    }).addTo(map);
-
-    L.marker([-34.610676, -58.361778])
-      .addTo(map)
-      .bindPopup("BsAsWebCamp 2020 <br> Entradas ya disponibles")
-      .openPopup()
-      .bindTooltip('Un Tooltip')
-      .openTooltip(); 
-
+    
     //Campos Datos Usuario
     var nombre = document.getElementById("nombre");
     var apellido = document.getElementById("apellido");
@@ -32,6 +20,7 @@
     var suma = document.getElementById("suma-total");
     //Extras
     var remeras = document.getElementById("remera_evento");
+    console.log(remeras.value);
     var stickers = document.getElementById("stickers");
 
     if(document.getElementById('calcular')){
@@ -97,16 +86,16 @@
         if (boletosDia >= 1) {
           listadoProductos.push(boletosDia + " Pases por dia");
         }
-        if (boletos2Dias >= 1) {
+         if (boletos2Dias >= 1) {
           listadoProductos.push(boletos2Dias + " Pases por 2 dia");
         }
-        if (boletosCompleto >= 1) {
+         if (boletosCompleto >= 1) {
           listadoProductos.push(boletosCompleto + " Pases completo");
         }
-        if (boletosCompleto >= 1) {
+        if (boletosCompleto >= 1 || boletosDia >= 1 || boletos2Dias >= 1 ) {
           listadoProductos.push(cantRemeras + " Remeras");
         }
-        if (boletosCompleto >= 1) {
+        if (boletosCompleto >= 1 || boletosDia >= 1 || boletos2Dias >= 1 ) {
           listadoProductos.push(cantStickers + " Stickers");
         }
         lista_productos.style.display = "block";
@@ -144,6 +133,18 @@
     }
   }
   }); //Dom content loaded
+  var map = L.map('mapa').setView([-34.610676, -58.361778], 16);
+    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+      attribution:
+        '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+    }).addTo(map);
+
+    L.marker([-34.610676, -58.361778])
+      .addTo(map)
+      .bindPopup("BsAsWebCamp 2020 <br> Entradas ya disponibles")
+      .openPopup()
+      .bindTooltip('Un Tooltip')
+      .openTooltip();
 })();
 
 $(function() {

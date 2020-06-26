@@ -252,8 +252,7 @@
                     name="registro[]"
                     id="conf_04"
                     value="conf_04"
-                  /><time>10:00</time> Como crear una tienda online que venda
-                  millones en pocos días</label
+                  /><time>10:00</time> Como crear una tienda online</label
                 >
                 <label
                   ><input

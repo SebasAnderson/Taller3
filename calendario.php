@@ -65,11 +65,10 @@
                         </div>
                     <?php } //fin foreach eventos ?>
                 <?php } //fin foreach dias ?>
-           
-        <?php 
-            $conn->close();
-        ?>
         </div> <!--.calendario-->
+        <?php 
+            $conn->clase();
+        ?>
     </section>
 
 <?php include_once 'includes/templates/footer.php';?>
