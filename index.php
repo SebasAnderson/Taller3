@@ -49,7 +49,7 @@
                 <p><i class="fas fa-calendar"></i> 9 de Dic</p>
                 <p><i class="fas fa-user"></i> Federico Rios</p>
               </div>
-              <a href="#" class="button float-right">Ver todos</a>
+              <a href="calendario.php" class="button float-right">Ver todos</a>
             </div>
             <!-- Id talleres -->
             <div id="conferencias" class="info-curso ocultar clearfix">
@@ -65,7 +65,7 @@
                 <p><i class="fas fa-calendar"></i> 10 de Dic</p>
                 <p><i class="fas fa-user"></i> Camila Sanchez</p>
               </div>
-              <a href="#" class="button float-right">Ver todos</a>
+              <a href="calendario.php" class="button float-right">Ver todos</a>
             </div>
             <!-- Id talleres -->
             <div id="seminarios" class="info-curso ocultar clearfix">
@@ -81,7 +81,7 @@
                 <p><i class="fas fa-calendar"></i> 11 de Dic</p>
                 <p><i class="fas fa-user"></i> Juan Pablo de la torre</p>
               </div>
-              <a href="#" class="button float-right">Ver todos</a>
+              <a href="calendario.php" class="button float-right">Ver todos</a>
             </div>
             <!-- Id talleres -->
           </div>
@@ -169,7 +169,7 @@
                 <li>Todas las conferencias</li>
                 <li>Todos los talleres</li>
               </ul>
-              <a href="#" class="button hollow">Comprar</a>
+              <a href="registro.php" class="button hollow">Comprar</a>
             </div>
           </li>
           <li>
@@ -181,7 +181,7 @@
                 <li>Todas las conferencias</li>
                 <li>Todos los talleres</li>
               </ul>
-              <a href="#" class="button">Comprar</a>
+              <a href="registro.php" class="button">Comprar</a>
             </div>
           </li>
           <li>
@@ -193,7 +193,7 @@
                 <li>Todas las conferencias</li>
                 <li>Todos los talleres</li>
               </ul>
-              <a href="#" class="button hollow">Comprar</a>
+              <a href="registro.php" class="button hollow">Comprar</a>
             </div>
           </li>
         </ul>
