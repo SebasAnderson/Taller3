@@ -57,12 +57,12 @@
           '<script src="js/vendor/jquery-3.4.1.min.js "><\/script>'
         );
     </script>
-    <script src="./js/plugins.js "></script>
+    <script src="js/plugins.js "></script>
     <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
-    <script src="./js/jquery.animateNumber.min.js"></script>
-    <script src="./js/jquery.countdown.min.js"></script>
-    <script src="./js/jquery.lettering.js"></script>
-    <script src="./js/main.js "></script>
+    <script src="js/jquery.animateNumber.min.js"></script>
+    <script src="js/jquery.countdown.min.js"></script>
+    <script src="js/jquery.lettering.js"></script>
+    <script src="js/main.js"></script>
 
     <script>
       window.ga = function () {
@@ -74,7 +74,7 @@
       ga("set", "transport", "beacon");
       ga("send", "pageview");
     </script>
-    <script src="https://www.google-analytics.com/analytics.js " async></script>
+   <!-- <script src="https://www.google-analytics.com/analytics.js " async></script> -->
   </body>
 </html>
 

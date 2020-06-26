@@ -47,7 +47,7 @@
                 <h3>Responsive Web Desing</h3>
                 <p><i class="fas fa-clock"></i> 18:00 hrs</p>
                 <p><i class="fas fa-calendar"></i> 9 de Dic</p>
-                <p><i class="fas fa-user"></i> Juan Pablo de la torre</p>
+                <p><i class="fas fa-user"></i> Federico Rios</p>
               </div>
               <a href="#" class="button float-right">Ver todos</a>
             </div>

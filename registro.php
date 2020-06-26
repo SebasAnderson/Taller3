@@ -81,7 +81,7 @@
             </li>
             <li>
               <div class="tabla-precios">
-                <h3>Pase por 2 dias (Viernes y Sábados)</h3>
+                <h3>Pase por 2 dias (Viernes y Sabado)</h3>
                 <p class="numero">$45</p>
                 <ul>
                   <li>Facturas Gratis</li>
@@ -415,7 +415,7 @@
               <div class="orden">
                 <label for="stickers"
                   >Paquete de 10 stickers $2<small
-                    >(HTML5, CSS3, JavaScript, >Chrome)</small
+                    >(HTML5, CSS3, JavaScript, Chrome)</small
                   ></label
                 >
                 <input

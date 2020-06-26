@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html class="no-js" lang="">
+<html class="no-js" lang="es">
   <head>
-    <meta charset="utf-8" />
+    <meta charset="utf-8">
     <title></title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -61,7 +61,7 @@
         </div>
         <nav class="navegacion-principal">
           <a href="conferencia.php">Conferencia</a>
-          <a href="#">Calendario</a>
+          <a href="calendario.php">Calendario</a>
           <a href="#">Invitados</a>
           <a href="registro.php">Reservaciones</a>
         </nav>

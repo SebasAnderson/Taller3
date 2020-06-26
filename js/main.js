@@ -1,10 +1,9 @@
 (function () {
-  "use strict";
+ // "use strict";
 
   var regalo = document.getElementById("regalo");
   document.addEventListener("DOMContentLoaded", function () {
-
-    var map = L.map('mapa').setView([-34.610676, -58.361778], 16);
+     var map = L.map('mapa').setView([-34.610676, -58.361778], 16);
     L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
       attribution:
         '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
@@ -15,7 +14,7 @@
       .bindPopup("BsAsWebCamp 2020 <br> Entradas ya disponibles")
       .openPopup()
       .bindTooltip('Un Tooltip')
-      .openTooltip();
+      .openTooltip(); 
 
     //Campos Datos Usuario
     var nombre = document.getElementById("nombre");
@@ -120,7 +119,7 @@
     }
 
     function mostrarDias() {
-      console.log('evento funciona')
+      console.log('evento funciona');
       var boletosDia = parseInt(pase_dia.value, 10) || 0,
         boletos2Dias = parseInt(pase_dosDias.value, 10) || 0,
         boletosCompleto = parseInt(pase_completo.value, 10) || 0;
@@ -148,7 +147,6 @@
 })();
 
 $(function() {
-
   //Lettering
   $('.nombre-sitio').lettering();
 
@@ -169,7 +167,6 @@ $(function() {
    });
 
   // Menu Responsive
-
   $('.menu-movil').on('click', function(){
     $('.navegacion-principal').slideToggle();
   });
