@@ -4,7 +4,7 @@
     <section class="seccion contenedor">
         <h2>Calendario de Eventos</h2>
 
-        <?php
+    <?php
         try {
             require_once('includes/funciones/db_conexion.php');
             $sql = "SELECT evento_id, nombre_evento, fecha_evento, hora_evento, cat_evento, icono, nombre_invitado, apellido_invitado ";
@@ -18,7 +18,7 @@
         } catch(\Exception $e){
             echo $e->getMessage();
         }
-        ?>
+    ?>
         <div class="calendario">
             <?php
             $calendario = array();
@@ -64,8 +64,9 @@
                             </p>
                         </div>
                     <?php } //fin foreach eventos ?>
-                <?php } //fin foreach dias ?>
+                <?php  } //fin foreach dias ?>
         </div> <!--.calendario-->
+
         <?php 
             $conn->clase();
         ?>

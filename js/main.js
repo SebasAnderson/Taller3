@@ -202,5 +202,8 @@ $(function() {
     $('#segundos').html(event.strftime('%S'));
   });
 
+    //Colorbox
+    
+    $('.invitado-info').colorbox({inline:true, width:"50%"});
 
 });

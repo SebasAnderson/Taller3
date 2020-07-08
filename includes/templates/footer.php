@@ -5,7 +5,7 @@
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque amet
             voluptates, fugit ullam explicabo eum, quisquam iste,
-            tempora unde dolore earum maiores quasi minima. Reprehenderit.
+            tempora unde dolore earum maiores quasi minima.
           </p>
         </div>
         <div class="ultimos-tweets">
@@ -62,8 +62,9 @@
     <script src="js/jquery.animateNumber.min.js"></script>
     <script src="js/jquery.countdown.min.js"></script>
     <script src="js/jquery.lettering.js"></script>
-    <script src="js/main.js"></script>
     <script src="js/lightbox.js"></script>
+    <script src="js/jquery.colorbox-min.js"></script>
+    <script src="js/main.js"></script>
 
     <script>
       window.ga = function () {
