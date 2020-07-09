@@ -11,10 +11,10 @@
     <link rel="stylesheet" href="./css/fontawesome-all.min.css" />
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Oswald:wght@200;300;400;500;600;700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
       rel="stylesheet"/>
-    <link rel="stylesheet" href="./css/lightbox.css"/>
-    <link rel="stylesheet" href="./css/main.css"/>  
-    <link rel="stylesheet" href="./css/colorbox.css"/>  
     <link  rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="./css/lightbox.css"/>
+    <link rel="stylesheet" href="./css/colorbox.css"/>
+    <link rel="stylesheet" href="./css/main.css"/>
     <meta name="theme-color" content="#fafafa" />
   </head>
 

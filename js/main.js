@@ -20,7 +20,7 @@
     var suma = document.getElementById("suma-total");
     //Extras
     var remeras = document.getElementById("remera_evento");
-    console.log(remeras.value);
+    // console.log(remeras.value);
     var stickers = document.getElementById("stickers");
 
     if(document.getElementById('calcular')){
@@ -203,7 +203,6 @@ $(function() {
   });
 
     //Colorbox
-    
     $('.invitado-info').colorbox({inline:true, width:"50%"});
 
 });

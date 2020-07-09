@@ -1,7 +1,6 @@
 <?php include_once 'includes/templates/header.php'; ?>
 
-
-    <section class="seccion contenedor">
+<section class="seccion contenedor">
         <h2>Calendario de Eventos</h2>
 
     <?php
@@ -17,8 +16,8 @@
             $resultado = $conn->query($sql);
         } catch(\Exception $e){
             echo $e->getMessage();
-        }
-    ?>
+        }?>
+    
         <div class="calendario">
             <?php
             $calendario = array();
@@ -38,7 +37,7 @@
                 $calendario[$fecha][] = $evento;
                 ?>    
            <?php } //while de fetch_assoc ?>
-
+              
            <?php
                 //Imprime todos los eventos
                 foreach($calendario as $dia => $lista_eventos) { ?>
@@ -66,10 +65,9 @@
                     <?php } //fin foreach eventos ?>
                 <?php  } //fin foreach dias ?>
         </div> <!--.calendario-->
-
         <?php 
-            $conn->clase();
+            $conn->close();
         ?>
-    </section>
+</section>
 
 <?php include_once 'includes/templates/footer.php';?>
