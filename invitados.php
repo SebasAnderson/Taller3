@@ -37,5 +37,5 @@
         <?php 
             $conn->clase();
         ?>
-        
+        //mi mama
 <?php include_once 'includes/templates/footer.php';?>
