@@ -202,7 +202,7 @@ $(function() {
     $('#segundos').html(event.strftime('%S'));
   });
 
-    //Colorbox
+   /*  //Colorbox
     $('.invitado-info').colorbox({inline:true, width:"50%"});
-
+ */
 });

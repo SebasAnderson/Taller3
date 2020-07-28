@@ -57,13 +57,19 @@
           '<script src="js/vendor/jquery-3.4.1.min.js"><\/script>'
         );
     </script>
+    <script> 
+          const elemento = document.getElementById('display');
+          elemento.addEventListener('onclick', (e)=>{
+            elemento.style.display = 'block';
+            console.log(elemento);
+          });
+    </script>
     <script src="js/plugins.js "></script>
     <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
     <script src="js/jquery.animateNumber.min.js"></script>
     <script src="js/jquery.countdown.min.js"></script>
     <script src="js/jquery.lettering.js"></script>
     <script src="js/lightbox.js"></script>
-    <script src="js/jquery.colorbox-min.js"></script>
     <script src="js/main.js"></script>
 
     <script>
