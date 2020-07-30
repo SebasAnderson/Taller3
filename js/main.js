@@ -20,7 +20,7 @@
     var suma = document.getElementById("suma-total");
     //Extras
     var remeras = document.getElementById("remera_evento");
-    // console.log(remeras.value);
+    console.log(remeras.value);
     var stickers = document.getElementById("stickers");
 
     if(document.getElementById('calcular')){
@@ -177,6 +177,7 @@ $(function() {
   //Programa de conferencias
   $('.programa-evento .info-curso:first').show();
   $('.menu-programa a:first').addClass('activo');
+  
   $('.menu-programa a').on('click', function(){
     $('.menu-programa a').removeClass('activo');
     $(this).addClass('activo');
@@ -201,7 +202,8 @@ $(function() {
     $('#segundos').html(event.strftime('%S'));
   });
 
-   /*  //Colorbox
+    //Colorbox
+    
     $('.invitado-info').colorbox({inline:true, width:"50%"});
- */
+
 });
